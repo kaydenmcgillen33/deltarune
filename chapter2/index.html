@@ -370,6 +370,12 @@
       </div>
     </div>
 	<!-- Ads Stuff for games that need it -->
+	  <script>
+  var Module = {
+    TOTAL_MEMORY: 512 * 1024 * 1024,  // 512 MB instead of default 16 MB
+    wasmMemory: new WebAssembly.Memory({ initial: 8192, maximum: 16384 })
+  };
+</script>
    <script async
      data-ad-client="ca-pub-123"
      data-ad-frequency-hint="30s"
